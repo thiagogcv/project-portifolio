@@ -1,0 +1,109 @@
+ @import "https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&display=swap";
+ :root {
+    --color-green: #50fa7b;
+}
+
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    }
+    
+    body {
+        background: #282a36;
+        font-family: 'Source Serif Pro', serif;
+        color: #fff;
+    }
+
+    body div {
+        text-align: center;
+
+    }
+
+    div a i {
+        font-size: 36px;
+        margin: 5px 10px;
+        color: white;
+        
+    }
+    
+    header {
+        padding: 32px;
+        border-bottom: 1px solid #333;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    
+    header div {
+        text-align: center;
+    }
+    
+    .links a {
+        font-size: 18px;
+        line-height: 28px;
+        margin: 0 16px;
+        color: #fff;
+        text-decoration: none;
+    
+    }
+    .links a:hover{
+        color:
+         var(--color-green);
+        transition: color 200ms;
+    }
+    .links i:hover{
+        color:
+         var(--color-green);
+        transition: color 200ms;
+        
+    }
+    #wrapper {
+        text-align: center;
+        padding: 20px;
+
+    }
+
+    #wrapper img {
+        border-radius: 50%;
+        border: 5px solid var(--color-green);
+        height: 200px;
+        
+    }
+
+    #wrapper h1 {
+        font-size: 42px;
+        line-height: 52px;
+        font-weight: bold;
+        
+    } 
+
+    #wrapper h3 {
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: normal;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        opacity: 0.8;
+    } 
+
+    #wrapper p {
+        max-width: 500px;
+        margin: 32px auto;
+        font-size: 20px;
+    }
+
+    #wrapper a {
+        color: rgb(137, 102, 219);
+        text-decoration: none;
+    }
+    
+    #wrapper a:hover {
+        color: var(--color-green);
+        transition: color 200ms;
+        
+
+
+    }
+
+
