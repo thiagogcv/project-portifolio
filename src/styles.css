@@ -35,8 +35,9 @@
         background-color: rgba(0, 0, 0, 0.1);
     }
     
-    header div {
-        text-align: center;
+    #links-footer i{
+        text-align: none;
+      
     }
     
     .links a {
@@ -48,13 +49,11 @@
     
     }
     .links a:hover{
-        color:
-         var(--color-green);
+        color: var(--color-green);
         transition: color 200ms;
     }
-    .links i:hover{
-        color:
-         var(--color-green);
+    #links-footer i:hover{
+        color: var(--color-green);
         transition: color 200ms;
         
     }
