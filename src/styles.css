@@ -1,10 +1,10 @@
  @import "https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&display=swap";
  :root {
     --color-green: #50fa7b;
+    --color-rocket: #7159c1;
 }
 
  * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
     border: 0;
@@ -14,11 +14,6 @@
         background: #282a36;
         font-family: 'Source Serif Pro', serif;
         color: #fff;
-    }
-
-    body div {
-        text-align: center;
-
     }
 
     div a i {
@@ -35,12 +30,7 @@
         background-color: rgba(0, 0, 0, 0.1);
     }
     
-    #links-footer i{
-        text-align: none;
-      
-    }
-    
-    .links a {
+        .links a {
         font-size: 18px;
         line-height: 28px;
         margin: 0 16px;
@@ -52,9 +42,14 @@
         color: var(--color-green);
         transition: color 200ms;
     }
+    #links-footer {
+        text-align: center;
+    }
+
     #links-footer i:hover{
         color: var(--color-green);
         transition: color 200ms;
+        transform-style: preserve-3d;
         
     }
     #wrapper {
@@ -100,9 +95,46 @@
     #wrapper a:hover {
         color: var(--color-green);
         transition: color 200ms;
-        
-
-
+        transform-style: preserve-3d;
     }
+
+    /*====CARDS====*/
+  .cards {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }  
+
+  .card {
+      background-color: var(--color-rocket);
+
+  }
+
+  .card__image-container img {
+      width: 100%;
+  }
+
+  .card__content,
+  .card__info {
+      padding: 24px;
+
+  }
+
+  .card__info {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    
+  }
+.card__price {
+    background-color: var(--color-rocket);
+    filter: brightness(90%);
+    padding: 5px 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
 
 
