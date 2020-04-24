@@ -125,8 +125,10 @@
   .card__info {
       display: grid;
       grid-template-columns: 1fr 1fr;
+      filter: brightness(90%);
     
   }
+
 .card__price {
     background-color: var(--color-rocket);
     filter: brightness(90%);
