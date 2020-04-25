@@ -1,13 +1,12 @@
  @import "https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&display=swap";
- @import "https://kit.fontawesome.com/0352032437.js";
+
 
  :root {
     --color-green: #50fa7b;
     --color-rocket: #7159c1;
 }
 
- * {
-     box-sizing: border-box;
+ * {    
     margin: 0;
     padding: 0;
     border: 0;
@@ -18,13 +17,6 @@
         font-family: 'Source Serif Pro', serif;
         color: #fff;
     }
-
-    /* div a i {
-        font-size: 36px;
-        margin: 5px 10px;
-        color: white;
-        
-    } */
     
     header {
         padding: 32px;
@@ -162,12 +154,23 @@
     height: 90%;
     margin: 5vh auto;
     position: relative;
+    
 }
 
-.modal .modal-close {
-    right: 0;
+/* .modal-close {
     color: black;
     position: absolute;
+    right: 0;
+    top: 0; 
+    
+}   */
+.material-icons {
+    color: black;
+    position: absolute;
+    right: 0;
+    top: 0; 
+  
+    
 }
 
 
