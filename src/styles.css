@@ -1,5 +1,23 @@
  @import "https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&display=swap";
 
+ @keyframes bounce {
+     0%, 20%, 60%, 100% {
+         -webkit-transform: translateY(0);
+         transform: translateY(0);
+     }
+
+     40% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+
+     }
+
+     80% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+
+     }
+ }
 
  :root {
     --color-green: #50fa7b;
@@ -39,22 +57,30 @@
     }
     #links-footer {
         text-align: center;
-        height: 80px;
+        height: 100%;
         font-size: 30px;
+        
+    }
+
+    #links-footer a{
+        margin-bottom: auto;
         
     }
 
     #links-footer i {
         color: #fff;
+        padding: 0 10px;
+        box-sizing: border-box;
         
     }
 
     #links-footer i:hover{
         color: var(--color-green);
-        transition: color 200ms;
+        animation: bounce 1s;
         transform-style: preserve-3d;
         
     }
+
     #wrapper {
         text-align: center;
         padding: 20px;
@@ -86,7 +112,7 @@
 
     #wrapper p {
         max-width: 500px;
-        margin: 32px auto;
+        margin: 25px auto;
         font-size: 20px;
     }
 
