@@ -1,10 +1,13 @@
  @import "https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&display=swap";
+ @import "https://kit.fontawesome.com/0352032437.js";
+
  :root {
     --color-green: #50fa7b;
     --color-rocket: #7159c1;
 }
 
  * {
+     box-sizing: border-box;
     margin: 0;
     padding: 0;
     border: 0;
@@ -16,12 +19,12 @@
         color: #fff;
     }
 
-    div a i {
+    /* div a i {
         font-size: 36px;
         margin: 5px 10px;
         color: white;
         
-    }
+    } */
     
     header {
         padding: 32px;
@@ -44,6 +47,14 @@
     }
     #links-footer {
         text-align: center;
+        height: 80px;
+        font-size: 30px;
+        
+    }
+
+    #links-footer i {
+        color: #fff;
+        
     }
 
     #links-footer i:hover{
@@ -154,6 +165,7 @@
 }
 
 .modal .modal-close {
+    right: 0;
     color: black;
     position: absolute;
 }
